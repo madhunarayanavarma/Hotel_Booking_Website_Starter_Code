@@ -8,9 +8,10 @@
   <body>
     <div class="maindiv">
         <div class="HeaderDiv">
-            <img src="assests/images/logo.png" alt="logo">
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo"></a>
             
-            <a href=""><span>Login</span></a>
+            
+            <a href="login.html">Login</a>
         </div>
 
     </div>
@@ -19,8 +20,24 @@
 
         <div class="ContentDiv">
             <a href="detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel">
-                <br>
-                <a href="payment.html">Book Now</a>
+            </a><br>
+                <form action="payment.html">
+                    <label for="a">Adults:</label>
+                    <input type="number" min="1" name="a" id="a"><br>
+                    <label for="b">Name:</label>
+                    <input type="text" name="b" id="b" required><br>
+                    <label for="c">From Date:</label>
+                    <input type="date" name="c" id="c" required><br>
+                    <label for="d">To Date:</label>
+                    <input type="date" name="d" id="d" required><br>
+                    <label for="readonly">Total:</label>
+                    <input type="text" name="readonly" readonly>
+                    <br>
+                    <input type="submit" value="Book Now">
+
+
+
+                </form>
                 
                 <h3>Radisson Blu Hotel</h3>
                 <span><p>Rating</p></span>
