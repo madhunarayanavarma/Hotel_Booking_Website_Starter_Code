@@ -5,12 +5,16 @@
 .FooterDiv .sm{
     height: 20px;
     width: 22px;
+    float: right;
+    display: grid;
+    padding: 0.5%;
 }
 body{
     width: 100%;
     height: 100%;
     margin: 0px;
     background-color:  #e0e0e0;
+    font-family:  'Ubuntu', sans-serif;
 }
 .maindiv{
     width: 100%;
@@ -19,6 +23,7 @@ body{
 .ContentDiv img{
     height: 500px;
     width: 500px;
+    margin-top: 2%;
 }
 header{
     background-color: rosybrown;
@@ -35,3 +40,13 @@ footer{
 /* .imgcl{
     margin: 2% 4% 0% 2%;
 } */
+footer span{
+    margin-left: 45%;
+}
+.cont{
+    text-decoration: none;
+    color: black;
+}
+.FooterDiv .smi{
+    padding: 1%;
+}

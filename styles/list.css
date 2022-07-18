@@ -11,6 +11,7 @@ body{
     height: 100%;
     margin: 0px;
     background-color:  #e0e0e0;
+    font-family:  'Ubuntu', sans-serif;
 }
 .maindiv{
     width: 100%;
@@ -27,10 +28,68 @@ footer{
     background-color: rosybrown;
 }
 .one{
-    margin: 2%;
+    margin: 8%;
     background-color:  rgb(132,136,139);
-    width: 40%;
+    /* margin-right: 5%; */
+    /* width: 40%; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
 }
 .try{
     width: 40%;
+}
+.HeaderDiv .login{
+    float: right;
+    padding: 1.5%;
+    text-decoration: none;
+    color: black;
+}
+.FooterDiv .sm{
+    height: 20px;
+    width: 22px;
+    float: right;
+    display: grid;
+    padding: 0.5%;
+    /* flex-direction: row-reverse; */
+    
+}
+.listview{
+    margin-left: 40%;
+    text-decoration: none;
+    color: black;
+    
+}
+.mapview{
+    margin-left: 1.5%;
+    text-decoration: none;
+    color: black;
+}
+/* #o{
+    width: 40%;
+} */
+#images{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.blu{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.blu a{
+    text-decoration: none;
+    color: black;
+}
+#map{
+    display: none;
+}
+footer span{
+    margin-left: 45%;
+}
+.cont{
+    text-decoration: none;
+    color: black;
+}
+.FooterDiv .smi{
+    padding: 1%;
 }
