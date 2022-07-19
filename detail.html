@@ -13,7 +13,7 @@
             <a href="index.html"><img src="assests/images/logo.png" alt="logo"></a>
             
             
-            <a href="login.html">Login</a>
+            <a href="login.html" class="log">Login</a>
         </header>
         </div>
 
@@ -22,30 +22,43 @@
 
 
         <div class="ContentDiv">
+            <table class="top">
+                <tr>
+                    <td class="te">
             <a href="detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="imgcl">
-            </a><br>
+            </a><br></td>
+
+            <td>
+            <table class="inner" style="border: 0px;">
                 <form action="payment.html">
-                    <label for="a">Adults:</label>
-                    <input type="number" min="1" name="a" id="a"><br>
-                    <label for="b">Name:</label>
-                    <input type="text" name="b" id="b" required><br>
-                    <label for="c">From Date:</label>
-                    <input type="date" name="c" id="c" required><br>
-                    <label for="d">To Date:</label>
-                    <input type="date" name="d" id="d" required><br>
-                    <label for="readonly">Total:</label>
-                    <input type="text" name="readonly" readonly>
-                    <br>
-                    <input type="submit" value="Book Now">
+                    
+                    
+                    <tr><td><label for="a">Adults:</label></td>
+                    <td><input type="number" min="1" name="a" id="a"><br></td></tr>
+                    <tr><td><label for="b">Name:</label></td>
+                    <td><input type="text" name="b" id="b" required><br></td></tr>
+                    <tr><td><label for="c">From Date:</label></td>
+                    <td><input type="date" name="c" id="c" required><br></td></tr>
+                    <tr><td><label for="d">To Date:</label></td>
+                    <td><input type="date" name="d" id="d" required><br></td></tr>
+                    <tr><td><label for="readonly">Total:</label></td>
+                    <td><input type="text" name="readonly" readonly></td></tr>
+                    <tr><td></td>
+                        <td class="bk"><input type="submit" value="Book Now"></td></tr>
 
 
 
                 </form>
+            
+            </table>
+        </td>
+    </tr>
+        </table>
                 
                 <h3>Radisson Blu Hotel</h3>
-                <span><p>Rating</p></span>
+                <span><p style="font-weight: bold;">Rating</p></span>
                 <span><p>5 star</p></span>
-                <p>AMENITIES</p>
+                <p style="font-weight: bold;">AMENITIES</p>
                <ul>
                 <li>Room Service</li>
                 <li>Restaurant</li>
@@ -55,7 +68,7 @@
 
 
                </ul>
-               <span><p>DESCRIPTION</p></span>
+               <span><p style="font-weight: bold;">DESCRIPTION</p></span>
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ullam dolorum officia doloremque eius. Sunt, ex! Dolorum similique voluptatibus 
                 magni sit facilis eius dolorem quis, laborum aspernatur, debitis, omnis vitae?</p>
 
@@ -68,13 +81,18 @@
 
         <div class="FooterDiv">
             <footer>
-                <div class="smi">
-                <a href="contact.html" class="cont">Contact Us</a><br>
+                <div class="smi" id="f1">
+               <a href="contact.html" class="cont">Contact Us</a></div>
+               <div id="f3" class="smi">
+                <span>© 2020 ROOM SEARCH PVT LTD</span>
+            </div>
+
+               <div class="smi" id="f2">
                 <a href="https://www.facebook.com/"><img src="assests/images/facebook.png" alt="facebookimage" class="sm"></a>
                 <a href="https://twitter.com/"><img src="assests/images/instagram.png" alt="instaimage" class="sm"></a>
                 <a href="https://www.instagram.com"><img src="assests/images/twitter.png" alt="twitterimage" class="sm"></a>
             </div>
-                <br><span>© 2020 ROOM SEARCH PVT LTD</span>
+            
 
             </footer>
         </div>

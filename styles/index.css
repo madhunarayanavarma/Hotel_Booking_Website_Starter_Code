@@ -44,6 +44,7 @@ body{
     height: 100%;
 }
 header{
+    display: flex;
     background-color: rosybrown;
     /* position: fixed; */
     width: 407;
@@ -66,12 +67,45 @@ footer{
     margin-top: 2%;
     margin-left: 20%;
     margin-right: 15%;
-    position: static;
+    position: relative;
+    
 }
 .imgs{
     /* height: 300px; */
-    margin: 2% 20%;
+    /* margin: 2% 20%; */
+    /* display: flex; */
+    display: flex;
+    column-gap: 10%;
 }
+/* #m1{
+    margin-right: 50px;
+} */
+.m{
+    box-shadow: 10px 10px 10px grey;
+}
+.cn{
+    text-align: center;
+}
+.ad .ty{
+    position: absolute;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-decoration: none;
+    color: white;
+    visibility: hidden;
+}
+.ad:hover .ty{
+    
+   visibility: visible;
+   /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.ad:hover{
+    opacity: 0.8;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+
 .reg{
     text-align: center;
 }
@@ -105,6 +139,22 @@ footer{
     border-radius: 10px;
   
 }
+.HeaderDiv1 a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    justify-content: center;
+}
+.HeaderDiv{
+    flex-grow: 2;
+    
+}
+/* footer{
+    display: flex;
+}
+footer .cont{
+    flex-grow: 2;
+} */
 @media only screen and (max-width: 600px) {
     .fo{
         position: absolute;

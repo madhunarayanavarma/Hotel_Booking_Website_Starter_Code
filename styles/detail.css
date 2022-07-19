@@ -40,9 +40,9 @@ footer{
 /* .imgcl{
     margin: 2% 4% 0% 2%;
 } */
-footer span{
+/* footer span{
     margin-left: 45%;
-}
+} */
 .cont{
     text-decoration: none;
     color: black;
@@ -50,3 +50,47 @@ footer span{
 .FooterDiv .smi{
     padding: 1%;
 }
+.log{
+    float: right;
+    margin: 2%;
+    text-decoration: none;
+    color: black;
+}
+.top, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .top{
+    width: 100%;
+  }
+  .inner td{
+    border: 0px;
+    padding: 30px;
+  }
+  /* .inner .bk input{
+    margin-left: 50%;
+  } */
+  .top .te{
+    text-align: center;
+    width: 65%;
+  }
+  .FooterDiv .smi{
+    padding: 1%;
+}
+.sp1{
+    margin-left: 20px;
+}
+.ma{
+    margin-left: 20px;;
+}
+footer{
+    display: flex;
+    column-gap: 30%;
+}
+#f2{
+    width: 100px;
+}
+/* #f3{
+    width: 500px;
+} */
+

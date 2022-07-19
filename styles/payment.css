@@ -24,8 +24,8 @@ body{
     height: 100%;
 }
 .ContentDiv img{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 270px;
 }
 header{
     background-color: rosybrown;
@@ -51,22 +51,94 @@ footer{
 .pay{
     padding: 1%;
 }
-.det{
+.parent{
     border: 1px solid black;
     margin: 2%;
     border-radius: 5px;
+    background-color: rosybrown;
 }
-footer span{
+/* footer span{
     margin-left: 45%;
-}
+} */
 .cont{
     text-decoration: none;
     color: black;
 }
-.FooterDiv .smi{
+/* .FooterDiv .smi{
     padding: 1%;
-}
+} */
 .pay{
     text-decoration: none;
     color: black;
+}
+.pimg{
+    width: 270px;
+    height: 300px;
+}
+.t {
+    /* float: left; */
+    height: 300px;
+    width: 500px;
+    background-color: rgb(132,136,139);
+    text-decoration: none;
+}
+.t img{
+float: left;
+    }
+.ad{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    
+}
+.t1{
+    margin-left: 290px;
+    padding-top: 20px;
+}
+.t1 p{
+    width: 500px;
+}
+.parent{
+    display: flex;
+    flex-grow: 2;
+    /* padding: 10%; */
+    /* column-gap: 10%; */
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.detail{
+    margin-right: 250px;
+}
+.det{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.pay1{
+    width: 100px;
+    margin-top: 150px;
+}
+.log{
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.FooterDiv .smi{
+    padding: 1%;
+}
+.sp1{
+    margin-left: 20px;
+}
+.ma{
+    margin-left: 20px;;
+}
+footer{
+    display: flex;
+    column-gap: 30%;
+}
+#f2{
+    width: 100px;
 }

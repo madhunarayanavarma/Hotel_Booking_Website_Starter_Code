@@ -29,7 +29,7 @@ footer{
 }
 .one{
     margin: 8%;
-    background-color:  rgb(132,136,139);
+    background-color: lightgray;
     /* margin-right: 5%; */
     /* width: 40%; */
     /* display: grid; */
@@ -79,13 +79,22 @@ footer{
 .blu a{
     text-decoration: none;
     color: black;
+    margin-left: 20px;
 }
+.blu h3 span{
+    margin-left: 20px;
+}
+.blu img{
+    float: left;
+    
+}
+
 #map{
     display: none;
 }
-footer span{
+/* footer span{
     margin-left: 45%;
-}
+} */
 .cont{
     text-decoration: none;
     color: black;
@@ -93,3 +102,17 @@ footer span{
 .FooterDiv .smi{
     padding: 1%;
 }
+.sp1{
+    margin-left: 20px;
+}
+.ma{
+    margin-left: 20px;;
+}
+footer{
+    display: flex;
+    column-gap: 30%;
+}
+#f2{
+    width: 100px;
+}
+
