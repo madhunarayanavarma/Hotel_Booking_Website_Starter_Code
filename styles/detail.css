@@ -93,4 +93,32 @@ footer{
 /* #f3{
     width: 500px;
 } */
+.log{
+    float: right;
+    
+    
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#loginfront{
+    background-color: #e0e0e0;
+    border: 0px;
+}
+#contbut{
+    background-color: rgb(44, 139, 119);
+    border: 0px;
+}
+.blu img{
+    height: 171px;
+}
+.bk input:hover{
+    background-color: rgb(75, 233, 75);
+    /* border: 1px solid rgb(75, 233, 75); ; */
+    color: white;
+
+}
+.bk input{
+    border: 1px solid rgb(75, 233, 75); 
+    color: rgb(75, 233, 75);
+}
 

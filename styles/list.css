@@ -58,6 +58,7 @@ footer{
     text-decoration: none;
     color: black;
     
+    
 }
 .mapview{
     margin-left: 1.5%;
@@ -75,6 +76,10 @@ footer{
 .blu{
     grid-column-start: 1;
     grid-column-end: 3;
+
+}
+.one:hover{
+    background-color: rosybrown;
 }
 .blu a{
     text-decoration: none;
@@ -89,9 +94,9 @@ footer{
     
 }
 
-#map{
+/* #map{
     display: none;
-}
+} */
 /* footer span{
     margin-left: 45%;
 } */
@@ -115,4 +120,24 @@ footer{
 #f2{
     width: 100px;
 }
-
+.log{
+    float: right;
+    
+    
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#loginfront{
+    background-color: #e0e0e0;
+    border: 0px;
+}
+#contbut{
+    background-color: rgb(44, 139, 119);
+    border: 0px;
+}
+.blu img{
+    height: 171px;
+}
+.yellow-color {
+    color:yellow;
+    }

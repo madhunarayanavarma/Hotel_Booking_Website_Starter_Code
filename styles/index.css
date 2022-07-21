@@ -122,15 +122,21 @@ footer{
 .FooterDiv{
     position: static;
 }
-.view{
+#view{
     text-decoration: none;
     color: black;
     text-align: center;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 0px;
+    background-color: grey;
     
 }
 .view a{
     text-decoration: none;
     color: black;
+    margin-top: 10px;
 }
 .fo{
     position: absolute;
@@ -155,6 +161,25 @@ footer{
 footer .cont{
     flex-grow: 2;
 } */
+#loginbutton{
+    margin-right: 50%;
+    /* background-color: black; */
+    
+}
+#loginfront{
+    background-color: #e0e0e0;
+    border: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.lgp{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+#contbut{
+    background-color: rgb(44, 139, 119);
+    border: 0px;
+}
 @media only screen and (max-width: 600px) {
     .fo{
         position: absolute;
@@ -162,7 +187,7 @@ footer .cont{
         margin-top: 35%;
       
     }
-    .view{
+    #view{
         text-decoration: none;
         color: black;
         margin-right: 30%;
