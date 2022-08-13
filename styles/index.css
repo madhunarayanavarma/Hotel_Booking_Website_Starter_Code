@@ -76,6 +76,8 @@ footer{
     /* display: flex; */
     display: flex;
     column-gap: 10%;
+    flex-wrap: wrap;
+
 }
 /* #m1{
     margin-right: 50px;
@@ -179,6 +181,9 @@ footer .cont{
 #contbut{
     background-color: rgb(44, 139, 119);
     border: 0px;
+}
+.ad{
+    padding-bottom: 20px;
 }
 @media only screen and (max-width: 600px) {
     .fo{
